@@ -1,0 +1,7 @@
+<div class="container p-5 text-center">
+       
+    <button class="bg-green-500 p-4" (click)="increment()">Increment</button>
+    <div class="p-4 font-bold">Current Count: <strong>{{ count$ | async }}</strong></div>
+    <button class="bg-red-500 p-4" (click)="decrement()">Decrement</button>
+    <button class="bg-amber-500 p-4" (click)="reset()">Reset Counter</button>
+</div>
